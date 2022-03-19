@@ -1,0 +1,652 @@
+@font-face {
+  font-family: gorobold;
+  src: url(font/GROBOLD.ttf);
+}
+
+@font-face {
+  font-family: bodoamat;
+  src: url(font/Bodo\ Amat.ttf);
+}
+
+@font-face {
+  font-family: pulang;
+  src: url(font/Pulang.ttf);
+}
+
+@font-face {
+  font-family: goofy;
+  src: url(font/Life\ is\ goofy.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#menu {
+  margin-top: 50px;
+  display: flex;
+  font-family: bodoamat;
+  position: absolute;
+}
+
+#menu button:hover{
+  border-radius: 10%;
+  background-color: greenyellow;
+  border: 3px solid green;
+  color: black;
+  cursor: pointer;
+}
+
+#menu a {
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+#menu .space{
+  margin: 10px;
+}
+
+#avatar{
+  display: block;
+  background-image: url(Gambar/background/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  border-radius: 0;
+}
+
+#characterselector{
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 530px;
+}
+
+#avatar input{
+  position: absolute;
+  margin-top: 78px;
+  margin-left: 600px;
+  width: 200px;
+  text-align: center;
+  font-family: pulang;
+  color: black;
+  background-color: whitesmoke;
+}
+
+#avatar .prevbtn button{
+  margin-left: 625px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;
+}
+
+#avatar .prevbtn button:hover{
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;
+  background-color: rgb(212, 135, 135);
+  border: 3px solid red;
+  color: black;
+  cursor: pointer;
+}
+
+#avatar .ps-5 button{
+  border-top-left-radius: 0%;
+  border-bottom-left-radius: 0%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+#avatar .ps-5 button:hover{
+  border-top-left-radius: 0%;
+  border-bottom-left-radius: 0%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  background-color: rgb(212, 135, 135);
+  border: 3px solid red;
+  color: black;
+  cursor: pointer;
+}
+
+#avatar button{
+  font-family: pulang;
+  position:fixed;
+  top: 600px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-left: 675px;
+  opacity: 100%;
+}
+
+#avatar button:hover{
+  border-radius: 50%;
+  background-color: greenyellow;
+  border: 3px solid green;
+  color: black;
+  cursor: pointer;
+}
+
+#character {
+  margin-left: 900px;
+  margin-top: 300px;
+  background-color: palegoldenrod;
+  border: 2px solid black;
+  width: 250px;
+  text-align: center;
+}
+
+#character h1{
+  font-family: goofy;
+}
+
+#timeshow{
+  font-family: gorobold;
+}
+
+#greet{
+  font-family: bodoamat;
+}
+
+#money{
+  display: flex;
+  margin-left: 65px;
+}
+
+#moneyshow{
+  font-family: pulang;
+  color: green;
+}
+
+#character img{
+  width: 20px;
+  margin-left: 5px;
+}
+
+#fridge {
+  border-radius: 10%;
+  background-color: palegoldenrod;
+  border: 2px solid black;
+  width: 200px;
+  float: left;
+  text-align: center;
+}
+
+#isi{
+  background-color: chocolate;
+  border-radius: 0;
+  display: flex;
+}
+
+#fridge h1{
+  font-family: gorobold;
+  text-decoration:underline;
+}
+
+#fridge button{
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 10%;
+  font-family: bodoamat;
+  color: black;
+}
+
+#fridge button:hover{
+  border-radius: 20%;
+  background-color: yellow;
+  border: 3px solid orange;
+  color: black;
+  cursor: pointer;
+}
+
+#fridge .makanminum button:hover{
+  border-radius: 20%;
+  background-color: rgb(166, 166, 212);
+  border: 3px solid blue;
+  color: black;
+  cursor: pointer;
+}
+
+#fridge p{
+  font-family: goofy;
+  font-size: 25px;
+}
+
+#foodshow{
+  font-family: goofy;
+  font-size: 25px;
+}
+
+#edrinkshow{
+  font-family: goofy;
+  font-size: 25px;
+}
+
+#shop {
+  border-radius: 10%;
+  background-color: palegoldenrod;
+  border: 2px solid black;
+  width: 200px;
+  float: left;
+  text-align: center;
+}
+
+#shop h1{
+  font-family: gorobold;
+  text-decoration:underline;
+}
+
+#shop h3{
+  font-family: gorobold;
+  text-decoration:underline;
+}
+
+#shop a{
+  font-family: goofy;
+  font-size: 25px;
+}
+
+#howmuchfood{
+  font-family: pulang;
+  text-align: center;
+  color: black;
+  width: 50px;
+}
+
+#shop button{
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 10%;
+  font-family: bodoamat;
+  color: black;
+}
+
+#shop button:hover{
+  border-radius: 10%;
+  background-color: yellow;
+  border: 3px solid orange;
+  color: black;
+  cursor: pointer;
+}
+
+#work {
+  border-radius: 10%;
+  background-color: palegoldenrod;
+  border: 2px solid black;
+  width: 200px;
+  float: left;
+  text-align: center;
+}
+
+#work h1{
+  font-family: gorobold;
+  text-decoration:underline;
+}
+
+#work a{
+  font-family: goofy;
+  font-size: 25px;
+}
+
+#level{
+  font-family: goofy;
+  font-size: 30px;
+}
+
+#work button{
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 10%;
+  font-family: bodoamat;
+  color: black;
+}
+
+#work button:hover{
+  border-radius: 10%;
+  background-color: yellow;
+  border: 3px solid orange;
+  color: black;
+  cursor: pointer;
+}
+
+#salary {
+  color: red;
+  font-family: goofy;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+#bank {
+  border-radius: 10%;
+  background-color: palegoldenrod;
+  border: 2px solid black;
+  width: 200px;
+  float: left;
+  text-align: center;
+}
+
+#bank h1{
+  font-family: gorobold;
+  text-decoration:underline;
+}
+
+#bank a{
+  font-family: goofy;
+  font-size: 25px;
+}
+
+#bank button{
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 10%;
+  font-family: bodoamat;
+  color: black;
+}
+
+#bank button:hover{
+  border-radius: 10%;
+  background-color: yellow;
+  border: 3px solid orange;
+  color: black;
+  cursor: pointer;
+}
+
+#deposit{
+  font-family: pulang;
+  text-align: center;
+  color: black;
+  width: 50px;
+}
+
+#withdraw{
+  font-family: pulang;
+  text-align: center;
+  color: black;
+  width: 50px;
+}
+
+#bankinfo{
+  font-family: goofy;
+  font-size: 25px;
+}
+
+#youtube{
+  border-radius: 10%;
+  background-color: palegoldenrod;
+  border: 2px solid black;
+  width: 200px;
+  float: left;
+  text-align: center;
+}
+
+#youtube h1{
+  font-family: gorobold;
+  text-decoration:underline;
+}
+
+#youtube .channel input{
+  width: 175px;
+}
+
+#channelnameinput{
+  font-family: pulang;
+  text-align: center;
+  color: black;
+  width: 50px;
+}
+
+#youtube button{
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 10%;
+  font-family: bodoamat;
+  color: black;
+}
+
+#youtube button:hover{
+  border-radius: 10%;
+  background-color: yellow;
+  border: 3px solid orange;
+  color: black;
+  cursor: pointer;
+}
+
+#youtube a{
+  font-family: goofy;
+  font-size: 25px;
+}
+
+#channelname{
+  font-family: goofy;
+  font-size: 25px;
+}
+
+#subshow{
+  font-family: goofy;
+  font-size: 25px;
+}
+
+#viewshow{
+  font-family: goofy;
+  font-size: 25px;
+}
+
+#boostshow{
+  font-family: goofy;
+  font-size: 25px;
+}
+
+#youtube .buttonyt button{
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 10%;
+  font-family: bodoamat;
+  color: black;
+}
+
+#youtube .buttonyt button:hover{
+  border-radius: 10%;
+  background-color: yellow;
+  border: 3px solid orange;
+  color: black;
+  cursor: pointer;
+}
+
+#date {
+  border-radius: 10%;
+  background-color: palegoldenrod;
+  border: 2px solid black;
+  width: 200px;
+  float: left;
+  text-align: center;
+}
+
+#date h1{
+  font-family: gorobold;
+  text-decoration:underline;
+}
+
+#showlikeness{
+  font-family: goofy;
+  font-size: 25px;
+}
+
+#datelevel{
+  font-family: goofy;
+  font-size: 25px;
+}
+
+#date button{
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 10%;
+  font-family: bodoamat;
+  color: black;
+}
+
+#date button:hover{
+  border-radius: 10%;
+  background-color: yellow;
+  border: 3px solid orange;
+  color: black;
+  cursor: pointer;
+}
+
+#date a{
+  font-family: goofy;
+  font-size: 25px;
+}
+
+#garden{
+  border-radius: 10%;
+  background-color: palegoldenrod;
+  border: 2px solid black;
+  width: 200px;
+  float: left;
+  text-align: center;
+}
+
+#garden h1{
+  font-family: gorobold;
+  text-decoration:underline;
+}
+
+#garden a{
+  font-family: goofy;
+  font-size: 25px;
+}
+
+#treeshow{
+  font-family: goofy;
+  font-size: 25px;
+}
+
+#garden button{
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 10%;
+  font-family: bodoamat;
+  color: black;
+}
+
+#garden button:hover{
+  border-radius: 10%;
+  background-color: yellow;
+  border: 3px solid orange;
+  color: black;
+  cursor: pointer;
+}
+
+#study{
+  border-radius: 10%;
+  background-color: palegoldenrod;
+  border: 2px solid black;
+  width: 200px;
+  float: left;
+  text-align: center;
+}
+
+#study h1{
+  font-family: gorobold;
+  text-decoration:underline;
+}
+
+#study a{
+  font-family: goofy;
+  font-size: 25px;
+}
+
+#study button{
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 10%;
+  font-family: bodoamat;
+  color: black;
+}
+
+#study button:hover{
+  border-radius: 10%;
+  background-color: yellow;
+  border: 3px solid orange;
+  color: black;
+  cursor: pointer;
+}
+
+#minstatstudymtk{
+  font-family: goofy;
+  font-size: 25px;
+}
+
+#minstatstudyprog{
+  font-family: goofy;
+  font-size: 25px;
+}
+
+#minstatstudybing{
+  font-family: goofy;
+  font-size: 25px;
+}
+
+#timeshow {
+  font-size: 48px;
+}
+
+#dayshow{
+  font-size: 24px;
+  font-family: gorobold;
+}
+
+#daysem{
+  display: flex;
+}
+
+#semester{
+  margin-left: 60px;
+  font-size: 24px;
+  font-family: gorobold;
+}
+
+div {
+  border-radius: 5%;
+}
+
+input {
+  border-radius: 10%;
+  border: 2px solid black;
+  background-color: yellow;
+  color: #0000ff;
+  width: 75px;
+}
+
+#contents{
+  margin-left: 50px;
+  margin-top: 200px;
+}
+
+#contents img{
+  margin-left: 400px;
+  width: 25%;
+  position: absolute;
+}
+
+#contents menu {
+    display: none;
+}
+
+#contents menu:target {
+    display: block;
+}
+
+a:visited {
+  color: blue;
+}
+a:last-child {
+  margin-right: 15px;
+}
+
+#yourname{
+  font-family: goofy;
+  font-size: 25px;
+}
